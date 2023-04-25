@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EveryLayout" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/my_orange</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+       <item name="windowNoTitle">true</item>
+    </style>
+
+<!--    이름 색상-->
+    <style name="myName">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+<!--    숫자스타일-->
+    <style name="myNumber">
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">#3949AB</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+<!--    계산기 스타일-->
+    <style name="myCalc">
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:height">100dp</item>
+        <item name="backgroundTint">#ddd</item>
+        <item name="android:textColor">#000</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".CalcActivity">
+
+    <TableRow>
+        <Button style="@style/myCalc" android:text="1"/>
+        <Button style="@style/myCalc" android:text="2"/>
+        <Button style="@style/myCalc" android:text="3"/>
+        <Button style="@style/myCalc" android:text="+"/>
+    </TableRow>
+    <TableRow>
+        <Button style="@style/myCalc" android:text="1"/>
+        <Button style="@style/myCalc" android:text="2"/>
+        <Button style="@style/myCalc" android:text="3"/>
+        <Button style="@style/myCalc" android:text="+"/>
+    </TableRow>
+    <TableRow>
+        <Button style="@style/myCalc" android:text="1"/>
+        <Button style="@style/myCalc" android:text="2"/>
+        <Button style="@style/myCalc" android:text="3"/>
+        <Button style="@style/myCalc" android:text="+"/>
+    </TableRow>
+    <TableRow>
+        <Button style="@style/myCalc" android:text="0"/>
+        <Button style="@style/myCalc"
+            android:layout_span="2"
+            android:text="CLEAR"/>
+        <Button style="@style/myCalc" android:text="/"/>
+
+    </TableRow>
+
+
+
+</TableLayout>
+
